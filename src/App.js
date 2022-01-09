@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 
+
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import SearchForm from "./components/SearchForm";
 import { useState } from "react";
