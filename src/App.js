@@ -25,11 +25,9 @@ function App() {
   const imageSearchHandler = (e) => {
     e.preventDefault();
    
-    fetch(`https://api.unsplash.com/search/photos?query=${inputText}&per_page=100`, {
+    fetch(`https://api.unsplash.com/search/photos?query=${api_key}&per_page=100`, {
       method: "GET",
-      headers: {
-        Authorization: api_key,
-      },
+   
     })
       .then((data) => data.json())
       .then((result) => {
