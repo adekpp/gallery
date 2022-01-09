@@ -6,7 +6,7 @@ import SearchForm from "./components/SearchForm";
 import { useState } from "react";
 import './imagehover.css'
 import './index.css';
-import './app.css';
+
 
 
 
