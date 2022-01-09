@@ -9,6 +9,11 @@ import './index.css';
 
 
 
+const api = process.env.REACT_APP_API_KEY;
+  
+
+
+
 
 function App() {
 
@@ -21,7 +26,7 @@ function App() {
   const imageSearchHandler = (e) => {
     e.preventDefault();
    
-    fetch(`https://api.unsplash.com/search/photos?query=${inputText}&per_page=100`, {
+    fetch(`https://api.unsplash.com/search/photos?query=${api}&per_page=100`, {
       method: "GET",
       headers: {
         Authorization: "Client-ID ElMcP6xVcBjEXwp36rSMvyTeU7PSRk0A8fceBqfafho",
