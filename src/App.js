@@ -21,7 +21,6 @@ function App() {
   const [images, setImages] = useState([]);
   
 
-  // accessKey: 'ElMcP6xVcBjEXwp36rSMvyTeU7PSRk0A8fceBqfafho',
 
   const imageSearchHandler = (e) => {
     e.preventDefault();
